@@ -5,4 +5,4 @@ REPO="GluonGrid/agmd"
 BRANCH="main"
 
 exec curl -fsSL \
-    "https://raw.githubusercontent.com/${REPO}/${BRANCH}/install.sh"
+    "https://raw.githubusercontent.com/${REPO}/${BRANCH}/install.sh" | sh
